@@ -1,0 +1,32 @@
+p {
+  font-size: 12px;
+}
+
+.white-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 2px 1px #eee;
+}
+
+.main-container {
+  margin: 30px;
+}
+
+.profile-text {
+  vertical-align: middle;
+}
+
+@media screen and (min-width: 722px) {
+  .profile-etc {
+    padding-left: 20px;
+    border-left: 2px solid lightgray;
+  }
+}
+
+
+.location-tag {
+  color: #6fbaf8;
+  font-size: 14px;
+  font-weight: 300;
+}

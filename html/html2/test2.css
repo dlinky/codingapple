@@ -1,0 +1,89 @@
+ul {
+  list-style-type: none;
+}
+ul li {
+  width: 200px;
+  height: 40px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: black solid 1px;
+}
+ul li.active {
+  background-color: blue;
+  color: white;
+}
+
+.alert-green {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 600px;
+  height: 50px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  border: black 1px solid;
+  border-radius: 3px;
+  background-color: #d2f0c6;
+  border-color: #a7e391;
+  color: #2f6d1a;
+}
+
+.alert-blue {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 600px;
+  height: 50px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  border: black 1px solid;
+  border-radius: 3px;
+  background-color: #bfeaf9;
+  border-color: #86d4f6;
+  color: #10628e;
+}
+
+.alert-yellow {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 600px;
+  height: 50px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  border: black 1px solid;
+  border-radius: 3px;
+  background-color: #fafacd;
+  border-color: #f5f29e;
+  color: #b3ac14;
+}
+
+.row {
+  width: 600px;
+}
+.row > div {
+  box-sizing: border-box;
+  height: 100px;
+  border: 1px solid #eee;
+}
+.row .col-6 {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+.row .col-4 {
+  float: left;
+  width: 33.3%;
+  padding: 15px;
+}
+.row .col-3 {
+  float: left;
+  width: 25%;
+  padding: 15px;
+}
+.row ::after {
+  display: block;
+  clear: both;
+}/*# sourceMappingURL=test2.css.map */
