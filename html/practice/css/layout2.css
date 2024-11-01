@@ -209,3 +209,23 @@ progress::-webkit-progress-value {
   appearance: none;
   background-color: aqua;
 }
+
+.ani-text {
+  text-align: center;
+}
+.ani-text:hover {
+  animation-name: textmove;
+  animation-duration: 1 s;
+}
+
+@keyframes textmove {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(100px);
+  }
+}

@@ -1,0 +1,110 @@
+.container {
+  float: left;
+  width: 500px;
+  height: 1000px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.button-blue {
+  text-align: center;
+}
+
+.button-blue:hover {
+  animation-name: shake;
+  animation-duration: 0.4s;
+}
+
+@keyframes shake {
+  25% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  75% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.rot-bigger {
+  font-size: 50px;
+}
+.rot-bigger:hover {
+  animation-name: rot-bigger;
+  animation-duration: 1s;
+}
+
+@keyframes rot-bigger {
+  0% {
+    transform: rotate(0deg);
+    transform: scale(1);
+  }
+  50% {
+    transform: rotate(-45deg);
+  }
+  100% {
+    transform: rotate(45deg);
+    transform: scale(1.2);
+  }
+}
+
+.navbar-black {
+  float: left;
+  width: 500px;
+  height: 500px;
+  background-color: black;
+  transform: translateX(-400px);
+  color: white;
+}
+
+.menu {
+  padding: 0px 12px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.item {
+  width: 100px;
+  margin: auto;
+  text-align: center;
+}
+
+.navbar-black:hover {
+  animation-name: expand;
+  animation-duration: 1s;
+  
+  .menu {
+    text-align: center;
+  }
+
+  .item {
+    animation-name: stampede;
+    animation-duration: 1s;
+  }
+}
+
+@keyframes expand {
+  0% {
+    transform: translateX(-400px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes stampede {
+  0% {
+    transform: translateX(0px) skew(0deg);
+  }
+  70% {
+    transform: translateX(50px) skew(-30deg);
+  }
+  100% {
+    transform: translateX(0px) skew(0deg);
+  }
+}
