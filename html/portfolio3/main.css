@@ -1,0 +1,78 @@
+.sidebar {
+  width: 150px;
+  height: 100vh;
+  background-color: #484bb3;
+  position: fixed;
+  z-index: 5;
+  color: white;
+  transition: all 0.5s;
+  transform: translateX(-100px);
+}
+.sidebar i {
+  transform: all 0.5s;
+  transform: translateX(100px);
+}
+
+.sidebar:hover i {
+  transform: all 0.5s;
+  transform: translateX(0px);
+}
+.sidebar:hover {
+  transition: all 0.5s;
+  transform: translateX(0px);
+}
+
+.sidebar div {
+  margin: 12px 0px 0px 15px;
+}
+
+.content {
+  margin-left: 50px;
+}
+
+.input-search::placeholder {
+  color: lightgray;
+}
+
+.btn-search {
+  background-color: #333;
+  color: white;
+}
+
+.nav-link {
+  position: relative;
+}
+
+.bg-superscript {
+  position: absolute;
+  top: 0px;
+  left: 15px;
+  padding: 4px 5px;
+  font-size: 10px;
+}
+
+.card {
+  box-shadow: 1px 1px 2px 1px #ddd;
+}
+
+.lb-skyblue {
+  border-left: 5px solid skyblue;
+}
+.lb-green {
+  border-left: 5px solid green;
+}
+.lb-purple {
+  border-left: 5px solid purple;
+}
+.lb-yellow {
+  border-left: 5px solid yellow;
+}
+
+.input-animation {
+  width: 150px;
+  transition: width 1s;
+}
+
+.input-animation:focus {
+  width: 500px;
+}
